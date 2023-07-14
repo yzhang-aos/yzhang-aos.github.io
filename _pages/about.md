@@ -2,25 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://miller.berkeley.edu/fellowship'>Miller Postdoctoral Fellow.</a> University of California, Berkeley
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>177 McCone Hall</p>
+    <p>University of California, Berkeley</p>
+    <p>Berkeley, CA 94720</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a postdoc at the University of California, Berkeley, working with Professor <a href='https://boos.berkeley.edu'>William Boos</a>. I earned my PhD from Princeton University advised by Professor <a href='https://fueglistaler.princeton.edu'>Stephan Fueglistaler</a>. I study atmospheric dynamics and climate change. My dissertation synthesized long-standing theoretical ideas to develop quantitative constraints on several aspects of tropical climate. These aspects include the onset of tropical atmospheric convection, the spatial and temporal distribution of precipitation, and the sensitivity of clear-sky outgoing longwave radiation to surface warming, which is a significant component of climate sensitivity. I am interested in advancing fundamental understanding of atmospheric dynamics and the interaction between dynamics, thermodynamics, and radiative transfer, emphasizing how these physical processes constrain extreme climate variables. In general, I follow a research path that encompasses understanding the underlying physics, developing analytical theories, and testing these theories against observational datasets and numerical simulations.

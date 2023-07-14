@@ -1,12 +1,9 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yi Zhang",
+    "label": "Postdoc",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "y-zhang@berkeley.edu",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,25 +21,23 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "University of California, Berkeley",
+      "position": "Miller Postdoctoral fellow",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
+      "startDate": "2021-07",
+      "endDate": "2024-06",
+      
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "Princeton University",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Program in Atmospheric and Oceanic Sciences",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
+      "startDate": "2016-09",
       "endDate": "1905-01-01",
       "score": "",
       "courses": [
