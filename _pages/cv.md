@@ -25,13 +25,16 @@ Peking University (July 2016)
 
 **Teaching**
 
-Teaching Assistant, ENV 367: Modeling the Earth System, Princeton University Fall 2018
+Teaching Assistant, ENV 367: Modeling the Earth System, Princeton University, Fall 2018
 
-Teaching Assistant, GEO 361: Earth’s Atmosphere, Princeton University Fall 2017
+Teaching Assistant, GEO 361: Earth’s Atmosphere, Princeton University, Fall 2017
 
-Teaching Assistant, Methods of Mathematical Physics, Peking University Spring 2016
+Teaching Assistant, Methods of Mathematical Physics, Peking University, Spring 2016
 
 **Service**
+
+Assistant for "EPS 198: Careers in the Earth and Planetary Sciences and Beyond'' Spring 2023 at University
+of California, Berkeley
 
 Session chair for the 23rd Conference on Atmospheric and Oceanic Fluid Dynamics, and the 2nd
 Model Hierarchy Workshop.
@@ -41,7 +44,7 @@ and the 2022 Fall Meeting of the American Geophysical Union.
 
 Reviewer for Proceedings of the National Academy of Sciences, Nature Geoscience, Scientific Reports,
 Geophysical Research Letters, Mitigation and Adaptation Strategies for Global Change, Journal
-of Climate, Earth’s Future.
+of Climate, Earth’s Future, Journal of Advances in Modeling Earth Systems.
 
 Reader for senior thesis in Department of Geosciences, Princeton University.
 
@@ -59,6 +62,8 @@ Princeton, NJ.
 
 
 **Invited Talks**
+
+Atmospheric Sciences Colloquia, University of Illinois Urbana-Champaign, Sep 2023
 
 Continental Climate Workshop, Harvard University Center for the Environment (HUCE), June 2023.
 
@@ -92,6 +97,7 @@ Climate Seminar Series, Princeton University, Princeton, NJ, Feb 2020.
 
 **Conference Talks**
 
+CalGFD, Scripps Institution of Oceanography, La Jolla, Sep 2023
 
 European Meteorological Society Annual Meeting 2022, virtual, Sep 2022.
 
@@ -99,7 +105,7 @@ European Meteorological Society Annual Meeting 2022, virtual, Sep 2022.
 
 European Geosciences Union General Assembly 2022, virtual, May 2022.
 
-American Meteorological Society’s 102nd Annual Meeting, January 2022.
+American Meteorological Society’s 102nd Annual Meeting, Jan 2022.
 
 American Geophysical Union Fall Meeting 2021, Dec 2021.
 
@@ -112,6 +118,8 @@ American Geophysical Union Fall Meeting 2020, virtual, Dec 2020.
 American Geophysical Union Fall Meeting 2019, San Francisco, CA, Dec 2019.
 
 **Posters** 
+
+Gordon Research Conference on Radiation and Climate, Bates College, Jul 2023.
 
 23rd Conference on Atmospheric and Oceanic Fluid Dynamics, Breckenridge, CO, Jun 2022.
 
