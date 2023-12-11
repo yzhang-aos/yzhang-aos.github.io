@@ -2,7 +2,7 @@
 layout: page
 title: forecast
 permalink: /forecast/
-description: nothing
+description: 
 nav: true
 nav_order: 4
 related_publications: zhang2023forecasting
