@@ -28,7 +28,7 @@ Humid heatwaves, characterized by high temperature and humidity combinations, ch
     <div class="col-md-16 mt-6 mt-md-0 mx-auto"> 
         <figure class="figure">
             {% include figure.html path="assets/img/enso_tw_fig4.png" title="example image" class="img-fluid rounded" %}
-            <figcaption class="figure-caption text-center">Map of the room mean squared error (RMSE) of the model and the four focus regions in red boxes.</figcaption>
+            <figcaption class="figure-caption text-center">Map of the root mean squared error (RMSE) of the model and the four focus regions in red boxes.</figcaption>
         </figure>
     </div>
 </div>
