@@ -10,8 +10,9 @@ nav_order: 4
 **Academic Positions**
 
 Assistant Professor of Mathematics and Atmosphere/Ocean Science.
-Jan 2024 - 
-Courant Institute of Mathematical Sciences,New York University, New York, NY, USA
+Jan 2024 -.
+Courant Institute of Mathematical Sciences,
+New York University, New York, NY, USA
 
 Miller Postdoctoral Fellow.
 July 2021 to June 2024.
