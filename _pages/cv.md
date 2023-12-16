@@ -9,6 +9,10 @@ nav_order: 4
 
 **Academic Positions**
 
+Assistant Professor of Mathematics and Atmosphere/Ocean Science.
+Jan 2024 - 
+Courant Institute of Mathematical Sciences,New York University, New York, NY, USA
+
 Miller Postdoctoral Fellow.
 July 2021 to June 2024.
 Department of Earth and Planetary Science,
@@ -63,7 +67,9 @@ Princeton, NJ.
 
 **Invited Talks**
 
-Atmospheric Sciences Colloquia, University of Illinois Urbana-Champaign, Sep 2023
+AGU Fall Meeting, 2023, San Francisco, Dec 2023.
+
+Atmospheric Sciences Colloquia, University of Illinois Urbana-Champaign, Sep 2023.
 
 Continental Climate Workshop, Harvard University Center for the Environment (HUCE), June 2023.
 
@@ -75,7 +81,7 @@ Environmental Science and Engineering (ESE) Seminar, California Institute of Tec
 
 Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Feb 2023.
 
-Climate Seminar, Program in Atmospheric and Oceanic Sciences, Department of Geosciences, High Meadows Environmental
+Climate Seminar, Program in Atmospheric and Oceanic Sciences, Department of Geosciences, High Meadows sEnvironmental
 Institute, Princeton University, Feb 2023.
 
 American Geophysical Union (AGU) Fall Meeting 2022, Dec 2022.
@@ -97,7 +103,10 @@ Climate Seminar Series, Princeton University, Princeton, NJ, Feb 2020.
 
 **Conference Talks**
 
-CalGFD, Scripps Institution of Oceanography, La Jolla, Sep 2023
+
+AGU Fall Meeting, 2023, San Francisco, Dec 2023.
+
+CalGFD, Scripps Institution of Oceanography, La Jolla, Sep 2023.
 
 European Meteorological Society Annual Meeting 2022, virtual, Sep 2022.
 
