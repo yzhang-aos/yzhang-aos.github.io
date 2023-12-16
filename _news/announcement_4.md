@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am starting as an Assistant Professor at New York University's "<a href='https://caos.cims.nyu.edu/dynamic/'>Courant Institute of Mathematical Sciences</a>" on January 1, 2024.
+I am starting as an Assistant Professor at New York University's <a href='https://caos.cims.nyu.edu/dynamic/'>Courant Institute of Mathematical Sciences</a> on January 1, 2024.
