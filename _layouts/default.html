@@ -6,9 +6,14 @@
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
+
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+
   {% include head.html %}
-  
-  
+ 
+ 
 <!-- MathJax Configuration -->
 <script type="text/x-mathjax-config">
    MathJax.Hub.Config({
