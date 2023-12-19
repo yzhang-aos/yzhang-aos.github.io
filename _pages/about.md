@@ -24,8 +24,8 @@ I am a Miller Postdoctoral Fellow at the University of California, Berkeley, hos
 
 Full of uncertainty and disorder, the Earth’s climate system is a unique subject in complex systems science. Reducing complex phenomena to simple laws is fascinating to me as a scientist. 
 
-Yet, climate science also involves a practical mission -- to better prepare societies worldwide for the impact of climate change. Accurately predicting future changes in climate and extreme weather requires a fundamental understanding of underlying physical mechanisms.
+Climate science also serves a more practical mission -- to better prepare societies worldwide for the impact of climate change. Accurately predicting future changes in climate and extreme weather requires a fundamental understanding of underlying physical mechanisms.
 
-I am interested in advancing fundamental understanding of atmospheric dynamics and the interaction between dynamics, thermodynamics, and radiative transfer. In general, I follow a research path that encompasses understanding the underlying physics, developing analytical theories, and testing these theories against observational datasets and numerical simulations.
+I am interested in advancing fundamental understanding of atmospheric dynamics and the interaction between dynamics, thermodynamics, and radiative transfer. I follow a research path that integrates understanding the underlying physics, developing analytical theories, and testing these theories against observational datasets and numerical simulations.
 
 
