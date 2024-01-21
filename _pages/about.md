@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor of Mathematics and Atmosphere/Ocean Science
+subtitle: Assistant Professor 
 
 profile:
   align: right
