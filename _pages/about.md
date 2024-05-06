@@ -9,9 +9,8 @@ profile:
   image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>177 McCone Hall</p>
-    <p>University of California, Berkeley</p>
-    <p>Berkeley, CA 94720</p>
+    <p>909 Warren Weaver Hall</p>
+    <p>New York, NY 10012</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
