@@ -5,8 +5,6 @@ img: assets/img/project_prof_1.png
 importance: 1
 category: work
 related_publications: zhang2023upper
-permalink: /_site/projects/1_project/
-
 ---
 
 In recent summers, the world has witnessed one extreme heatwave after another, raising concerns related to climate change. Such events prompt the pressing question: what limits the maximum surface temperature?
