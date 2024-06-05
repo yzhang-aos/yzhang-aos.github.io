@@ -13,13 +13,13 @@ Ignoring the Earth’s rotation effect can be a useful approximation in some asp
 
 Another characteristic of the tropical troposphere is frequent deep convection. Deep convection brings a humid air mass from the surface to above 10 km in just a few hours while condensing the air mass’ water vapor to rainfall. This process is much faster than other processes that heat or cool the air mass. The air mass thus conserves its moist static energy (MSE) during convection, which is the sum of the sensible, latent, and potential energy. 
 
-With these pieces of information, we can describe the tropical atmospheric dynamics using a two-layer model – The uniform temperature in the upper layer (about 2-15 km in altitude) acts as a uniform bar to the non-uniform lower layer (the bottom 2 km). Whenever and wherever the MSE in the lower layer reaches the threshold put in place by the upper layer, the whole tropospheric column becomes unstable. This results in convection that exports energy away from this column and prevents the local MSE from increasing. The above conceptual picture has been long-standing, and leads to the notion that MSE over land and ocean should, in same way, be equal
+With these pieces of information, we can describe the tropical atmospheric dynamics using a two-layer model – The uniform temperature in the upper layer (about 2-15 km in altitude) acts as a uniform bar to the non-uniform lower layer (the bottom 2 km). Whenever and wherever the MSE in the lower layer reaches the threshold put in place by the upper layer, the whole tropospheric column becomes unstable. This results in convection that exports energy away from this column and prevents the local MSE from increasing. The long-standing conceptual pictures suggests that subcloud MSE over land and ocean should be equal:
 
 \begin{equation}
 \mathrm{MSE_{land}} = \mathrm{MSE_{ocean}}.
 \end{equation}
 
-To clearly demonstrate this equality, some data treatment is necessary. This work crystallized these ideas and articulates the connection between land and ocean subcloud MSE, highlighting that they are only coupled in regions experiencing deep convection. Using precipitation as a proxy for convective activity, we show that the above equality holds within the tropics, approximately between 20°S and 20°N. This research bridges the gap between conceptual frameworks and observational data, and has implications for extreme heat stress, as detailed in <a href="/_site/projects/2_project/">this project</a>.
+To clearly demonstrate this equality, some data treatment is necessary. This work crystallized these ideas and articulates the connection between land and ocean subcloud MSE, highlighting that they are only coupled in regions experiencing deep convection. Using precipitation as a proxy for convective activity, we show that the above equality holds within the tropics, approximately between 20°S and 20°N. This research bridges the gap between conceptual frameworks and observational data, and has implications for extreme heat stress, as detailed in <a href="https://yzhang-aos.github.io/projects/2_project/">this project</a>.
 
 
 

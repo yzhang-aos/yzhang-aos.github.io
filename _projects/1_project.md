@@ -5,6 +5,7 @@ img: assets/img/project_prof_1.png
 importance: 1
 category: work
 related_publications: zhang2023upper
+permalink: /_site/projects/1_project/
 
 ---
 
