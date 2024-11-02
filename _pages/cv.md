@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-<a href="{{ site.baseurl }}/assets/pdf/CV_YiZhang.pdf" class="btn" target="_blank">Download PDF (Feb 2024)</a>
+<a href="{{ site.baseurl }}/assets/pdf/CV_YiZhang.pdf" class="btn" target="_blank">Download PDF (Nov 2024)</a>
 
 **Academic Positions**
 
@@ -33,6 +33,19 @@ Peking University (July 2016)
 
 
 **Invited Talks**
+
+EPS Colloquium, Department of Earth and Planetary Sciences, Harvard University, Oct 2024.
+
+Departmental Seminar, Department of Atmospheric Sciences, University of Utah, Sep 2024.
+
+Rossbypalooza on "Climate and Extreme Events", Univeristy of Chicago, Jul 2024.
+
+Workshop on "Emerging Risks from Concurrent, Compounding and Record-breaking Extreme
+Heat across Sectors", Columbia University, Jul 2024.
+
+Atmospheric and Oceanic Science Departmental Seminar, McGill University, Feb 2024.
+
+Ocean and Climate Physics Seminar, Lamont-Doherty Earth Observatory, Feb 2024.
 
 American Geophysical Union (AGU) Fall Meeting 2023, San Francisco, Dec 2023.
 
@@ -105,6 +118,8 @@ GFDL Poster Expo, May 2019.
 American Geophysical Union (AGU)  Fall Meeting 2018, Washington D.C., Dec 2018.
 
 
+<!-- 
+
 **Awards**
 
 Wagner Award for Women in Atmospheric Sciences, 2021
@@ -148,3 +163,4 @@ Volunteer for 2022 Fall El Cerrito Highschool outreach, El Cerrito, CA.
 Volunteer for 2018 Young Women’s Conference in STEM, Princeton Plasma Physics Laboratory,
 Princeton, NJ.
 
+-->
