@@ -8,7 +8,8 @@ nav_order: 4
 related_publications: zhang2024forecasting
 ---
 
-#### March 2025 Update: Successful Prediction of 2024 Tropical Land TWmax
+
+**March 2025 Update: Successful Prediction of 2024 Tropical Land TWmax**
 
 In December 2023, [Zhang et al. (2024)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL106990) predicted that the tropical land mean TWmax (annual maximum hourly wet-bulb temperature) for 2024 would be **26.2°C (25.9–26.4°C)**. This prediction was based on the El Nino strength in December 2023. The actual observed value turned out to be **26.3°C**, falling well within our 95% prediction interval and closely matching the central estimate. This value surpassed the previous record set in 1998 **by 0.14°C**.  
 
@@ -28,7 +29,7 @@ The updated figure below, adapted from Supplementary Figure S4, includes reanaly
 
 
 -----
-#### Dec 2023 Post: Prediction of 2024 Tropical Land TWmax
+**Dec 2023 Post: Prediction of 2024 Tropical Land TWmax**
 
 Humid heatwaves, characterized by high temperature and humidity combinations, challenge tropical societies. Extreme wet-bulb temperatures (TW) over tropical land are coupled to the warmest sea surface temperatures (SST) by atmospheric convection and wave dynamics (see Zhang, Held, and Fueglistaler, 2021 on my publications page for details). Here, we harness this coupling for seasonal forecasts of the annual maximum of daily maximum TWmax. In Zhang et al. (2023), we develop a multiple linear regression model that explains 80% of the variance in tropical mean TWmax and significant regional TWmax variances. Forecast of the annual maximum wet-bulb temperature TWmax averaged over land between 30°S and 30°N and over four regions listed in the menu below. Place your mouse on the interactive chart to read the probability of setting new records. The Oceanic Niño Index for December (NDJ) 2023 is 2.0 based on [NOAA](https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php).
 

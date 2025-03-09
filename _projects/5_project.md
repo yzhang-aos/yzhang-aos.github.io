@@ -2,7 +2,7 @@
 layout: page
 title: Tropical convection couples land and ocean moist static energy
 description: 
-img: assets/img/project_prof_5.jpeg
+<-- img: assets/img/project_prof_5.jpeg -->
 importance: 3
 category: work
 related_publications: zhang2020tropical
@@ -34,11 +34,3 @@ To clearly demonstrate this equality, some data treatment is necessary. This wor
     </div>
 </div>
 
-
-<span class="cover-image-source">Cover image source: <a href="https://en.wikipedia.org/wiki/The_Cliff_Walk_at_Pourville">https://en.wikipedia.org/wiki/The_Cliff_Walk_at_Pourville</a></span>
-
-<style>
-.cover-image-source {
-    font-size: 0.8em; /* 80% of the parent element's font size */
-}
-</style>

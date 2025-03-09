@@ -2,7 +2,6 @@
 layout: page
 title: Why will tropical rainfall become more unevenly distributed in space?
 description: 
-img: assets/img/project_prof_4.jpeg
 importance: 4
 category: work
 related_publications: zhang2019mechanism
@@ -14,7 +13,7 @@ To effectively measure the unevenness in a distribution as non-normal as rainfal
 <div class="row">
     <div class="col-md-6 mt-3 mt-md-0 mx-auto">
         <figure class="figure">
-            {% include figure.html path="assets/img/zhang_grl_2019a.jpg" title="example image" class="img-fluid rounded" %}
+            {% include figure.html path="assets/img/zhang_grl_2019b.jpeg" title="example image" class="img-fluid rounded" %}
             <figcaption class="figure-caption text-center">The Gini Index, traditionally used to measure income inequality, is adapted here to quantify the uneven distribution of rainfall. It is defined by the Lorenz curve, which plots the cumulative proportion of the total rainfall (represented on the y-axis) against the corresponding cumulative proportion of the surface area (on the x-axis).</figcaption>
         </figure>
     </div>
@@ -25,20 +24,9 @@ We explained the change in the Gini Index of rainfall using the subcloud MSE dif
 <div class="row">
     <div class="col-md-8 mt-6 mt-md-0 mx-auto">
         <figure class="figure">
-            {% include figure.html path="assets/img/zhang_grl_2019.jpg" title="example image" class="img-fluid rounded" %}
+            {% include figure.html path="assets/img/zhang_grl_2019.jpeg" title="example image" class="img-fluid rounded" %}
             <figcaption class="figure-caption text-center">The widening of the subcloud moist static energy (MSE) distribution can be explained by a simple scaling that incorporates the Clausius-Clapeyron relationship.</figcaption>
         </figure>
     </div>
 </div>
-
-
-<span class="cover-image-source">Cover image source: <a href="https://www.1stdibs.com/art/paintings/katherine-kean-confetti-rain-2-landscape-impressionist/id-a_10313742/">link</a></span>
-
-<style>
-.cover-image-source {
-    font-size: 0.8em; /* 80% of the parent element's font size */
-}
-</style>
-
-
 
