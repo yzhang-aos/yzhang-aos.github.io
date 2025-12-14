@@ -34,6 +34,14 @@ Peking University (July 2016)
 
 **Invited Talks**
 
+Center for Atmosphere Ocean Science (CAOS) Colloquium, Courant Institute, New York University, Nov 2025.
+
+Simons Symposium on Multi-Scale Physics, Krun, Germany, June 2025.
+
+Atmospheres, Oceans, & Climate Colloquium, Massachusetts Institute of Technology (MIT), May 2025.
+
+Laboratoire de Météorologie Dynamique (LMD/ENS), Paris, Nov 2024.
+
 EPS Colloquium, Department of Earth and Planetary Sciences, Harvard University, Oct 2024.
 
 Departmental Seminar, Department of Atmospheric Sciences, University of Utah, Sep 2024.
