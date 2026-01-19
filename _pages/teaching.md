@@ -7,6 +7,11 @@ nav: true
 nav_order: 5
 ---
 
+
+#### Spring 2026
+Ordinary Differential Equations - [MATH-UA.0262-007] (<a href="/assets/pdf/ODE_S2026_Syllabus.pdf" target="_blank">Syllabus</a>)
+
+
 #### Fall 2025
 Geophysical Fluid Dynamics - [MATH-GA.3001-001] (<a href="/assets/pdf/GFD_Syllabus_F2025.pdf" target="_blank">Syllabus</a>)
 
