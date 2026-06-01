@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-<a href="{{ site.baseurl }}/assets/pdf/CV_YiZhang.pdf" class="btn" target="_blank">Download PDF (Dec 2025)</a>
+<a href="{{ site.baseurl }}/assets/pdf/CV_YiZhang.pdf" class="btn" target="_blank">Download PDF (June 2026)</a>
 
 **Academic Positions**
 
