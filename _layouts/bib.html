@@ -110,8 +110,8 @@
          {{ entry.note | strip }}
         </div>
         
-        <!-- News coverage -->
-        {% if entry.news%}
+        <!-- News coverage (suppressed in project-page reference lists) -->
+        {% if entry.news and page.collection != "projects" %}
           <div class="news-coverage">
            <span>{{ entry.news }}</span>
           </div>

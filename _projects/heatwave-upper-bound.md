@@ -4,6 +4,11 @@ title: Can heatwave temperatures go up indefinitely?
 img: assets/img/project_prof_1.png
 importance: 1
 category: work
+topic: Extreme temperature
+year: 2023
+description: >-
+  Convective instability limits how hot it gets during a heatwave. 
+equation: 'T_s \leq T_{500} + \frac{L_v}{c_p}q_{\rm sat}(T_{500}) + \frac{g\,\overline{z_{500}}}{c_p\,\overline{T_{500}}}T_{500} - \frac{g}{c_p}z_s'
 related_publications: zhang2023upper
 ---
 
@@ -33,7 +38,6 @@ This upper bound is nonlinearly dependent on $T_{500}$ due to the property of wa
 
 By highlighting the role of convective instability in heatwaves and presenting a theoretical upper bound, this work offers a fresh perspective on the dynamics of extreme temperature events.
 
-<span class="cover-image-source">Cover image source: <a href="https://www.nytimes.com/interactive/2022/07/19/world/europe/uk-europe-heat-map.html">NY Times</a></span>
 
 <style>
 .cover-image-source {

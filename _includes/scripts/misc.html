@@ -19,6 +19,67 @@
   <!-- Bootstrap Table -->
   <script defer src="https://unpkg.com/bootstrap-table@{{ site.bootstrap-table.version }}/dist/bootstrap-table.min.js"></script>
 
+  <!-- Fit chalkboard project equations to their thumbnail -->
+  <script type="text/javascript">
+  (function () {
+    function fit(el) {
+      if (el.dataset.fitting === "1") return;
+      el.dataset.fitting = "1";
+      el.style.setProperty("--chalk-scale", "1");
+      // force reflow so the measurements below reflect the unscaled equation
+      void el.offsetWidth;
+      var board = el.parentElement;
+      var cs = board ? getComputedStyle(board) : null;
+      var padX = cs ? parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight) : 0;
+      var padY = cs ? parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom) : 0;
+      var availW = (board ? board.clientWidth : el.clientWidth) - padX;
+      var availH = (board ? board.clientHeight : el.clientHeight) - padY;
+      // .chalk-eq is an inline flex box that shrink-wraps the equation, so its
+      // border box is the equation's natural size.
+      var rect = el.getBoundingClientRect();
+      var naturalW = rect.width;
+      var naturalH = rect.height;
+      var scale = 1;
+      if (naturalW > 0) scale = Math.min(scale, availW / naturalW);
+      if (naturalH > 0) scale = Math.min(scale, availH / naturalH);
+      // leave a hair of breathing room so nothing kisses the frame edge
+      if (scale < 1) scale = Math.max(0.1, scale * 0.95);
+      el.style.setProperty("--chalk-scale", scale.toFixed(3));
+      el.dataset.fitting = "0";
+    }
+
+    function fitAll() {
+      document.querySelectorAll(".chalk-eq").forEach(fit);
+    }
+
+    function init() {
+      var eqs = document.querySelectorAll(".chalk-eq");
+      if (!eqs.length) return;
+      fitAll();
+      if (window.ResizeObserver) {
+        var ro = new ResizeObserver(function (entries) {
+          entries.forEach(function (entry) { fit(entry.target); });
+        });
+        eqs.forEach(function (el) { ro.observe(el); });
+      }
+      var t;
+      window.addEventListener("resize", function () {
+        clearTimeout(t);
+        t = setTimeout(fitAll, 150);
+      });
+      // safety net in case MathJax finishes typesetting after the observer is wired
+      [300, 1200, 3000].forEach(function (d) { setTimeout(fitAll, d); });
+      window.addEventListener("load", fitAll);
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", init);
+    } else {
+      init();
+    }
+  })();
+  </script>
+
   <!-- Load Common JS -->
   <script src="{{ '/assets/js/no_defer.js' | relative_url }}"></script>
   <script defer src="{{ '/assets/js/common.js' | relative_url }}"></script>

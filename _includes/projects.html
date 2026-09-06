@@ -1,34 +1,60 @@
 <!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
+{%- if forloop.first %}
+<!-- Chalk edge-roughening filter, emitted once; referenced by .chalk-eq in CSS -->
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <filter id="chalk-rough" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="3" seed="4" result="noise" />
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.6" xChannelSelector="R" yChannelSelector="G" />
+  </filter>
+</svg>
+{%- endif %}
+<div class="project-card">
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
     {%- else -%}
     <a href="{{ project.url | relative_url }}">
       {%- endif %}
-      <div class="card hoverable">
-        {%- if project.img %}
+      <div class="thumb-wrap">
+        {%- if project.equation %}
+        <div class="chalkboard">
+          <div class="chalk-eq">
+            \[ {{ project.equation }} \]
+          </div>
+        </div>
+        {%- elsif project.img %}
         {%- include figure.html
           path=project.img
+          class="thumb"
           alt="project thumbnail" -%}
         {%- endif %}
-        <div class="card-body">
-          <p class="card-title">{{ project.title }}</p>
-          <div class="row ml-1 mr-1 p-0">
-            {%- if project.github -%}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-              {%- if project.github_stars -%}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-              {%- endif %}
+      </div>
+      <div class="project-body">
+        <div class="meta-row">
+          {%- if project.year %}<span class="year">{{ project.year }}</span>{% endif -%}
+          {%- if project.topic %}<span class="topic">{{ project.topic }}</span>{% endif -%}
+        </div>
+        <h3 class="project-title">{{ project.title }}</h3>
+        {%- unless project.equation %}
+        <p class="empirical-note">No closed form here — this one's empirical.</p>
+        {%- endunless %}
+        {%- if project.description %}
+        <p class="excerpt">{{ project.description }}</p>
+        {%- endif %}
+        <div class="card-footer-row">
+          <span class="readmore">Read the write-up &rarr;</span>
+          {%- if project.github %}
+          <div class="github-icon">
+            <div class="icon" data-toggle="tooltip" title="Code Repository">
+              <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
             </div>
+            {%- if project.github_stars %}
+            <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+              <i class="fas fa-star"></i>
+              <span id="{{ project.github_stars }}-stars"></span>
+            </span>
             {%- endif %}
           </div>
+          {%- endif %}
         </div>
       </div>
     </a>

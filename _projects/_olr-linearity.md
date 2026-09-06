@@ -1,10 +1,14 @@
 ---
 layout: page
 title: Linearity of Earth's outgoing longwave radiation with global mean surface temperature
-description: 
 img: assets/img/project_prof_3.jpeg
 importance: 5
 category: work
+topic: Radiative Physics
+year: 2020
+description: >-
+  A global relative-humidity distribution that holds steady under warming extends the classic single-column linear-damping result to the whole planet.
+equation: '\dfrac{\partial \overline{\text{OLR}}}{\partial \overline{T_s}} = \alpha'
 related_publications: zhang2020linearity
 ---
 
