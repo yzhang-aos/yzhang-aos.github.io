@@ -58,6 +58,35 @@ Humid heatwaves, characterized by high temperature and humidity combinations, ch
   </div>
 </div>
 
+<script>
+// The two embedded Plotly charts above are static exports with a fixed
+// 720x480 canvas. Plotly's own "responsive" option is a no-op here because
+// the layout also specifies an explicit width/height, so on any narrower
+// screen (this reading column, or mobile) the chart used to overflow its
+// card and clip the legend. Scale the whole rendered chart (plot, legend,
+// and region-tab buttons together) down as a single unit to fit instead.
+(function () {
+  function scaleFigureItems() {
+    document.querySelectorAll('.figure-item').forEach(function (container) {
+      var gd = container.querySelector('.plotly-graph-div');
+      if (!gd) return;
+      var naturalWidth = gd.offsetWidth;
+      var naturalHeight = gd.offsetHeight;
+      if (!naturalWidth || !naturalHeight) return;
+      var style = getComputedStyle(container);
+      var padding = parseFloat(style.paddingLeft) + parseFloat(style.paddingRight);
+      var usable = container.clientWidth - padding;
+      var scale = Math.min(1, usable / naturalWidth);
+      gd.style.transform = 'scale(' + scale + ')';
+      gd.style.transformOrigin = 'top left';
+      container.style.height = Math.ceil(naturalHeight * scale) + 'px';
+    });
+  }
+  scaleFigureItems();
+  window.addEventListener('resize', scaleFigureItems);
+})();
+</script>
+
 
 
 
